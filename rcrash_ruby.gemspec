@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RcrashRuby::VERSION
   s.authors     = ["Alek Niemczyk"]
   s.email       = ["alek@rubylogic.pl"]
-  s.homepage    = "www.rubylogic.pl"
+  s.homepage    = "https://github.com/rlogic/rcrash_ruby"
   s.summary     = "rCrash for Ruby"
   s.description = "rCrash local agent for Ruby projects."
 
