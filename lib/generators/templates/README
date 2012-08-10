@@ -1,0 +1,10 @@
+===============================================================================
+
+Please set up RcrashRuby:
+
+  1. Change API_KEY in config/initilizers/rcrash_ruby.rb
+     API_KEY can be obtained on http://rcrash.com
+
+  2. Change ENABLED to true in config/initilizers/rcrash_ruby.rb
+
+===============================================================================
