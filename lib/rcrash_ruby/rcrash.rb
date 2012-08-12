@@ -2,7 +2,7 @@ module RcrashRuby
 
   class Rcrash < ActiveResource::Base
     
-    self.site = 'http://rcrash.com/listener/'
+    self.site = 'http://rcrash.lcl/listener/'
     self.element_name = 'crash'
 
   end
