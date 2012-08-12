@@ -1,6 +1,8 @@
-= RcrashRuby
+RcrashRuby
+====================
 
-= Getting started
+Getting started
+---------------------
 
 rCrash Ruby works with Rails 3.x. You can add it to your Gemfile with:
 
