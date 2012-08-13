@@ -2,9 +2,11 @@
 
 Please set up RcrashRuby:
 
-  1. Change API_KEY in config/initilizers/rcrash_ruby.rb
+  1. Change API_KEY in config/rcrash_ruby.yml
      API_KEY can be obtained on http://rcrash.com
 
-  2. Change ENABLED to true in config/initilizers/rcrash_ruby.rb
+  2. Change ENABLED to true in config/rcrash_ruby.yml
+
+  3. Change ENVIRONMENT if needed
 
 ===============================================================================

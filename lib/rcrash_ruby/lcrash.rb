@@ -70,10 +70,10 @@ module RcrashRuby
 
     def available_reporting?
       c = RcrashRuby.configuration
-      a = c[:api_key]
+      a = c.api_key
 
       c &&
-        c[:enabled] &&
+        c.enabled &&
         # checks below are kept only to reduce network traffic to rcrash.com
         # all the checks are also performed on the server site
         a.match(/^\w{20}$/) &&                                          # 20 characters

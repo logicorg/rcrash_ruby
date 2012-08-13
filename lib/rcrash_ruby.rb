@@ -1,3 +1,4 @@
+require "rcrash_ruby/configuration"
 require "rcrash_ruby/lcrash"
 require "rcrash_ruby/rcrash"
 
@@ -5,14 +6,11 @@ module RcrashRuby
   extend ActiveSupport::Concern
 
   included do
-    rescue_from Exception, :with => :code_crashed
+    rescue_from Exception, :with => :code_crashed if RcrashRuby.configuration.is_ok?
   end
 
   def self.configuration
-    @configuration ||= {
-    :enabled => false,
-    :api_key => nil
-    }
+    @configuration = RcrashRuby::Configuration.new
   end 
 
   protected

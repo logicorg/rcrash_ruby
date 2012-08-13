@@ -1,0 +1,13 @@
+# Obtain your API key on http://rcrash.com
+rcrash:
+  # To start using rCrash agent set enabled to true
+  enabled: false
+  # Obtain your API key on http://rcrash.com
+  api_key: '[your API key here]'
+  # Set environment from which you want to report errors
+  # Avaliabel options:
+  # 'production' for production environment only
+  # 'test' for test environment only
+  # 'development' for develoment environment only
+  # 'any' for any environment
+  environment: 'production'
