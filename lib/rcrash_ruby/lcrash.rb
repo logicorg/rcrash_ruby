@@ -14,7 +14,7 @@ module RcrashRuby
                   :environment_dump
 
     def initialize(exception, data={})
-      @api_key = RcrashRuby.configuration[:api_key]
+      @api_key = RcrashRuby.configuration.api_key
       @exception = exception
       @inspection = exception.inspect
       @crash_src = extract_crash_src(exception)
