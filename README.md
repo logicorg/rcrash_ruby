@@ -7,7 +7,7 @@ Getting started
 rCrash Ruby works with Rails 3.x. You can add it to your Gemfile with:
 
 ```ruby
-gem 'rcrash_ruby', path: 'rcrash_ruby/'
+gem 'rcrash_ruby', :git => 'git://github.com/rlogic/rcrash_ruby.git'
 ```
 
 And run the bundle command to install it.
@@ -18,13 +18,17 @@ Then you need to run the generator:
 rails g rcrash_ruby:install
 ```
 
-This will create rcrash_ruby.rb file in config/initializers/ directory. To start using rCrash you have to set up RcrashRuby:
+This will create rcrash_ruby.yml file in config/ directory. To start using rCrash you have to set up RcrashRuby:
 
-1. Change API_KEY in config/initilizers/rcrash_ruby.rb
-   API_KEY can be obtained on http://rcrash.com
+1. Change API_KEY in config/rcrash_ruby.yml API_KEY can be obtained on http://rcrash.com
 
-2. Change ENABLED to true in config/initilizers/rcrash_ruby.rb
+2. Change ENABLED to true in config/rcrash_ruby.yml
 
-= License
+3. Change ENVIRONMENT if needed
 
-This project rocks and uses MIT-LICENSE. Copyright 2012 RubyLogic http://rubylogic.pl
+License
+---------------------
+
+This project uses MIT-LICENSE.
+
+Copyright 2012 RubyLogic http://rubylogic.pl
