@@ -26,6 +26,8 @@ This will create rcrash.yml file in config/ directory. To start using rCrash you
 
 3. Change ENVIRONMENT if needed
 
+4. Add config/rcrash.yml file to .gitignore if git is used
+
 License
 ---------------------
 

@@ -9,4 +9,6 @@ Please set up rCrash (vim config/rcrash.yml):
 
   3. Change ENVIRONMENT if needed
 
+  4. Add config/rcrash.yml file to .gitignore if git is used
+
 ===============================================================================
