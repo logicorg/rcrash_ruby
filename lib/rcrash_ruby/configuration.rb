@@ -2,7 +2,7 @@ module RcrashRuby
 
   class Configuration
 
-    CONFIG_FILE = "config/rcrash_ruby.yml"
+    CONFIG_FILE = "config/rcrash.yml"
     ENABLED = false
     API_KEY = '[your API key here]'
     AVAILABLE_ENVS = %w{development test production any}
@@ -11,7 +11,7 @@ module RcrashRuby
     attr_reader :enabled, :api_key, :environment
 
     def initialize
-      if config = read_configuration["rcrash"]
+      if config
         @enabled = config["enabled"] || ENABLED
         @api_key = config["api_key"] || API_KEY
         @environment = config["environment"] || ENVIRONMENT
@@ -28,9 +28,9 @@ module RcrashRuby
 
     private
 
-    def read_configuration
+    def config
       begin
-        YAML.load(File.read(CONFIG_FILE))
+        YAML.load(File.read(CONFIG_FILE))["rcrash"]
       rescue
         nil
       end

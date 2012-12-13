@@ -7,7 +7,7 @@ Getting started
 rCrash Ruby works with Rails 3.x. You can add it to your Gemfile with:
 
 ```ruby
-gem 'rcrash_ruby', :git => 'git://github.com/rlogic/rcrash_ruby.git'
+gem 'rcrash_ruby', :git => 'git://github.com/logicorg/rcrash_ruby.git'
 ```
 
 And run the bundle command to install it.
