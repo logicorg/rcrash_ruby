@@ -18,11 +18,11 @@ Then you need to run the generator:
 rails g rcrash_ruby:install
 ```
 
-This will create rcrash_ruby.yml file in config/ directory. To start using rCrash you have to set up RcrashRuby:
+This will create rcrash.yml file in config/ directory. To start using rCrash you have to set up RcrashRuby:
 
-1. Change API_KEY in config/rcrash_ruby.yml API_KEY can be obtained on http://rcrash.com
+1. Change API_KEY in config/rcrash.yml API_KEY can be obtained on http://rcrash.com
 
-2. Change ENABLED to true in config/rcrash_ruby.yml
+2. Change ENABLED to true in config/rcrash.yml
 
 3. Change ENVIRONMENT if needed
 

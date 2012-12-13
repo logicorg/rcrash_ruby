@@ -1,11 +1,11 @@
 ===============================================================================
 
-Please set up RcrashRuby (vim config/rcrash_ruby.yml):
+Please set up rCrash (vim config/rcrash.yml):
 
-  1. Change API_KEY in config/rcrash_ruby.yml
+  1. Change API_KEY in config/rcrash.yml
      API_KEY can be obtained on http://rcrash.com
 
-  2. Change ENABLED to true in config/rcrash_ruby.yml
+  2. Change ENABLED to true in config/rcrash.yml
 
   3. Change ENVIRONMENT if needed
 
